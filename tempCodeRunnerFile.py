@@ -1,0 +1,1 @@
+print(apply_discount(74.5, 20))
