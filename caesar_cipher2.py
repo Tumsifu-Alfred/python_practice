@@ -23,7 +23,11 @@ def encrypt(text, shift):
 def decrypt(text, shift):
     return caesar(text, shift, encrypt=False)
 
-encrypted_text='Pbhentr vf sbhaq va hayvxryl cynprf.'
-print(encrypted_text)
-decrypted_text = decrypt(encrypted_text, 13)
+decrypted_text = decrypt('S wecd lo dro zidryx wkcdob drsc iokb', 10)
 print(decrypted_text)
+
+"""
+decrypted_text="I must be the python master this year"
+encrypted_text=encrypt(decrypted_text,10)
+print(encrypted_text)
+"""
